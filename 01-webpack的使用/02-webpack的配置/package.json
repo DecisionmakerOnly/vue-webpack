@@ -1,0 +1,14 @@
+{
+  "name": "meetwebpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.5.5"
+  }
+}

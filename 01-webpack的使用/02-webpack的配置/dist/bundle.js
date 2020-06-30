@@ -60,24 +60,33 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__info_js__ = __webpack_require__(1);
 
 const {add,mul} =__webpack_require__(2)
+console.log(__WEBPACK_IMPORTED_MODULE_0__info_js__["a" /* default */].name);
+console.log(__WEBPACK_IMPORTED_MODULE_0__info_js__["a" /* default */].age);
 console.log(add(100, 22));
 console.log(mul(100, 100));
 
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-__webpack_require__(0);
-module.exports = __webpack_require__(0);
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+    name:'zzz',
+    age:24
+});
 
 
 /***/ }),
