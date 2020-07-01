@@ -9,7 +9,7 @@ require ('./css/normal.css')
 // 依赖less文件
 require('./css/special.less')
 // 向页面写入一些内容
-// document.writeln("hello,zzz!")
+document.writeln("hello,zzz!")
 // 使用vue开发
 import Vue from 'vue'
 // import App from './vue/app'
